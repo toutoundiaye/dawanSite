@@ -1,4 +1,4 @@
-name: training
+name: Training theme
 type: theme
 description: 'My Awesome theme'
 package: Other
@@ -6,5 +6,17 @@ core: 8.x
 libraries:
   - training/global-styling
  
-base theme: stable
+base theme: classy
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
+
 
